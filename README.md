@@ -10,7 +10,7 @@
 
 ## 🚀 特性
 
-- ✅ [天元农历](https://github.com/hzonz/tianyuan_lunar)集成专用卡片。  
+- ✅ [天元农历](https://github.com/PraxiGEN/tianyuan_lunar)集成专用卡片。  
 - 🧩 支持自定义编辑数据来源，理论支持所有农历实体。  
 - ⚙️ 支持 Lovelace 编辑界面可视化配置。
 - 🧱 支持 JS 模板语法（[[[ ... ]]]），灵活自定义每个字段内容  
@@ -25,7 +25,7 @@
 2. 点击右上角 **“添加存储库 (Custom Repository)”**  
 3. 填入仓库 URL:  
 ```yaml
-https://github.com/hzonz/lunar-info-card
+https://github.com/PraxiGEN/lunar-info-card
 ```
 4. 类型选择 **Dashboard**，然后添加  
 5. 搜索 **Lunar Info Card** 并安装  
@@ -80,5 +80,5 @@ fields:
 ```
 
 ## 链接
-- 仓库地址：[hzonz/lunar-info-card](https://github.com/hzonz/lunar-info-card)
+- 仓库地址：[PraxiGEN/lunar-info-card](https://github.com/PraxiGEN/lunar-info-card)
 - 卡片参考：[6tail ](https://6tail.cn/calendar/api.html#overview.html) —— 感谢作者 [6tail](https://github.com/6tail/lunar-javascript) 的开源贡献
