@@ -32,17 +32,30 @@ https://github.com/PraxiGEN/lunar-info-card
 
 ### 手动安装
 
-1. 下载 `lunar-info-card.js` 文件  
-2. 放到 `www` 文件夹下，例如：  
-```yaml
-www/custom-stack-cards/lunar-info-card.js
-```
-3. 在 Lovelace 配置中引用：  
-```yaml
-resources:
-  - url: /local/lunar-info-card/lunar-info-card.js
-    type: module
-```
+1. 下载 `lunar-info-card.js` 文件。
+2. 复制到 Home Assistant：
+
+  - 将下载的文件移动到 Home Assistant 的配置目录（`<config>`）下的 `www` 文件夹中：
+  ```yaml
+  <config>/www/
+  ```
+  - 如果该文件夹不存在，请先手动创建 www 文件夹。
+
+3. 添加资源引用：
+
+[![打开你的 Home Assistant 实例并查看你的仪表板资源。](https://my.home-assistant.io/badges/lovelace_resources.svg)](https://my.home-assistant.io/redirect/lovelace_resources/)
+
+  - 进入 设置 → 仪表盘
+  - 点击右上角的 ⋮（三个点菜单），然后选择 资源。
+  - 点击右下角的 + 添加资源 按钮。
+  - 在弹窗中输入以下内容：
+    - URL: /local/lunar-info-card.js?v=0.0.1  
+    - Resource type: JavaScript Module
+  - 点击 创建。
+
+4. 重启 Home Assistant 前端：
+  - 刷新浏览器缓存
+  - 如果问题仍然存在，请尝试重启 Home Assistant 实例。
 
 ---
 
